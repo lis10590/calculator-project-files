@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <title>Calculator app</title>
+
+
+</head>
+
+<body id="body-background" class="body-background">
+  <div class="container">
+
+    <div id="calc" class="calc">calc</div>
+
+<div class="wrapper">
+  
+
+
+    <div id="theme-title" class="theme-title">THEME</div>
+
+    <div class="theme">
+      <div id="theme-switch" class="theme-switch">
+        <div class="lables">
+          <label for="one">1
+            <input class="theme-btn" type="radio" id="one" name="theme-btn" checked="checked" value="">
+            <span id="first-btn" class="red-circle"></span>
+          </label>
+
+          <label for="two">2
+            <input class="theme-btn" type="radio" id="two" name="theme-btn" value="">
+            <span id="second-btn" class="orange-circle"></span>
+          </label>
+
+          <label for="three">3
+            <input class="theme-btn" type="radio" id="three" name="theme-btn" value="">
+            <span id="third-btn" class="cyan-circle"></span>
+          </label>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <div id="screen" class="screen">
+      <div id="screenDisplay" class="num-screen"></div>
+    </div>
+    <div id="keypad" class="keypad">
+
+      <div class="keypad-numbers">
+
+        <button type="button" name="button" id="number" class="calc-key num">7</button>
+        <button type="button" name="button" id="number" class="calc-key num">8</button>
+        <button type="button" name="button" id="number" class="calc-key num">9</button>
+        <button type="button" name="button" id="del" class="calc-key del">DEL</button>
+
+
+        <button type="button" name="button" id="number" class="calc-key num">4</button>
+
+        <button type="button" name="button" id="number" class="calc-key num">5</button>
+        <button type="button" name="button" id="number" class="calc-key num">6</button>
+        <button type="button" name="button" id="operator" class="calc-key operator">+</button>
+        <button type="button" name="button" id="number" class="calc-key num">1</button>
+
+        <button type="button" name="button" id="number" class="calc-key num">2</button>
+
+        <button type="button" name="button" id="number" class="calc-key num">3</button>
+        <button type="button" name="button" id="operator" class="calc-key operator">-</button>
+        <button type="button" name="button" id="dot" class="calc-key dot">.</button>
+        <button type="button" name="button" id="number" class="calc-key num">0</button>
+        <button type="button" name="button" id="operator" class="calc-key operator">/</button>
+        <button type="button" name="button" id="operator" class="calc-key operator">x</button>
+
+      </div>
+      <div class="special-keys">
+
+        <button type="button" name="button" id="reset" class="calc-key reset">RESET</button>
+        <button type="button" name="button" id="equal" class="calc-key equal">=</button>
+
+      </div>
+
+
+
+
+    </div>
+
+  </div>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+
+</html>
